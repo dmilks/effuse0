@@ -48,3 +48,10 @@ gem 'refinerycms-i18n', '~> 2.0.0'
 #  gem 'refinerycms-inquiries', '~> 2.0.0'
 #  gem 'refinerycms-search', '~> 2.0.0'
 #  gem 'refinerycms-page-images', '~> 2.0.0'
+
+
+# Will run in production using S3 and Heroku
+group :production do
+  gem 'fog'
+  gem 'pg', '0.12.2'
+end

@@ -64,4 +64,17 @@ Effuse0::Application.configure do
   # Log the query plan for queries taking more than this (works
   # with SQLite, MySQL, and PostgreSQL)
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
+  
+  
+  # adding environment variable for S3 usage
+  # ----------------------------------------
+ 
+  Refinery::Core.configure do |config|
+    config.s3_backend = true
+    config.s3_access_key_id = 'AKIAJLNLYWCC27LUZ4SQ'
+    config.s3_secret_access_key = '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'
+    config.s3_bucket_name = 'bkteffuse0'
+    config.s3_region = 'Ireland' # this one's not always required, default is 'us-east-1'
+  end
+ 
 end
