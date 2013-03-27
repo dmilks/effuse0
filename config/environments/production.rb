@@ -74,7 +74,7 @@ Effuse0::Application.configure do
     config.s3_access_key_id = 'AKIAJLNLYWCC27LUZ4SQ'
     config.s3_secret_access_key = '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'
     config.s3_bucket_name = 'bkteffuse0'
-    config.s3_region = 'Ireland' # this one's not always required, default is 'us-east-1'
+    config.s3_region = 'eu-west-1' # this one's not always required, default is 'us-east-1'
   end
  
 end
