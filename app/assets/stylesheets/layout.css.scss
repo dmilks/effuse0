@@ -79,7 +79,7 @@ h2 { font-stretch : extra-expanded; }
   position: relative;
   #body {
     margin: 25px 100px;
-	color: #fe6923;
+	color: #0059bc;
   }
   .image-align-left {
     margin-right: 40px;
@@ -98,7 +98,7 @@ h2 { font-stretch : extra-expanded; }
 /*	padding-top : 25px; */
 	font-size: 42px;
 
-  }
+   }
 
 }
 
@@ -107,4 +107,17 @@ footer {
   color: #999;
   text-align: center;
   clear: both;
+}
+
+.productphotos_50ml img {
+	margin : 0;
+	display : inline-block;
+	padding : 2px;
+	
+}
+
+.productphotos_200ml img {
+	margin : 0;
+	padding : 5px;
+	display : inline-block;
 }
